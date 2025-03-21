@@ -30,12 +30,20 @@ public class Animal
     System.out.println("This animal's diet consists of " + food + ".");
   }
   
-  public void isNocturnal(nocturnal)
+  public void isNocturnal(boolean nocturnal)
   {
     if (nocturnal)
       System.out.println("This animal is active at night.");
     else
       System.out.println("This animal is active during the day.");
+  }
+
+  public void setNocturnal(boolean nocturnal)
+  {
+    if (nocturnal)
+      this.nocturnal = True;
+    else
+      this.nocturnal = False;
   }
 
   public void setLifeSpan(double years)
