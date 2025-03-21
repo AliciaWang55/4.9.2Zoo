@@ -32,7 +32,7 @@ public class ZooKeeperRunner
     myMonkey.hoot();
     myMonkey.climb();
     myMonkey.howl();
-    Gorrilla myGorilla = new Gorilla();
+    Gorilla myGorilla = new Gorilla();
     myGorilla.setName("Gregory");
     myGorilla.forage();
     myGorilla.hoot();
