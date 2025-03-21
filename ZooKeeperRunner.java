@@ -28,6 +28,7 @@ public class ZooKeeperRunner
     System.out.println("My Primates");
     Monkey myMonkey = new Monkey();
     myMonkey.setName("Peter");
+    myMonkey.forage();
     myMonkey.hoot();
     myMonkey.climb();
     myMonkey.howl();
