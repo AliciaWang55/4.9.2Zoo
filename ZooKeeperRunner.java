@@ -18,6 +18,22 @@ public class ZooKeeperRunner
     myTiger.roar();
     myTiger.huntAlone();
     myTiger.swim();
+
+    System.out.println("My Elephant");
+    Elephant myElephant = new Elephant();
+    myElephant.setName("Balthasar");
+    myElephant.forage();
+    myElephant.trumpet();
+
+    System.out.println("My Primates");
+    Monkey myMonkey = new Monkey();
+    myMonkey.setName("Peter");
+    myMonkey.hoot();
+    myMonkey.climb();
+    myMonkey.howl();
+    
+
+    
     
        
   }
