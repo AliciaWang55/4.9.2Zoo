@@ -18,18 +18,30 @@ public class Animal
   {
     return name;
   }
+
+  public void setFood(String food)
+  {
+    this.food = food;
+    System.out.println("I eat " + food);
+  }
   
   public void eat() 
   {
     System.out.println("This animal's diet consists of " + food + ".");
   }
   
-  public void isNocturnal()
+  public void isNocturnal(nocturnal)
   {
     if (nocturnal)
       System.out.println("This animal is active at night.");
     else
       System.out.println("This animal is active during the day.");
+  }
+
+  public void setLifeSpan(double years)
+  {
+    this.aveLifeSpan = years;
+    System.out.println("My average lifespan is " + years);
   }
   
   public void getLifeSpan()
