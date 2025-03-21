@@ -32,9 +32,26 @@ public class ZooKeeperRunner
     myMonkey.hoot();
     myMonkey.climb();
     myMonkey.howl();
+    Gorrilla myGorilla = new Gorilla();
+    myGorilla.setName("Gregory");
+    myGorilla.forage();
+    myGorilla.hoot();
+    myGorilla.climb();
+    myGorilla.howl();
     
-
-    
+    System.out.println("My Hooved Animals");
+    Hippo myHippo = new Hippo();
+    myHippo.setName("Benvolio");
+    myHippo.forage();
+    myHippo.groan();
+    Giraffe myGiraffe = new Giraffe();
+    myGiraffe.setName("Langston");
+    myGiraffe.forage();
+    myGiraffe.hum();
+    Deer myDeer = new Deer();
+    myDeer.setName("Juliet");
+    myDeer.forage();
+    myDeer.grunt(); 
     
        
   }
