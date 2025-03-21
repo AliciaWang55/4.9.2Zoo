@@ -24,6 +24,7 @@ public class ZooKeeperRunner
 
     System.out.println("My Elephant");
     Elephant myElephant = new Elephant();
+    Elephant("leaves, grasses, roots", false, 60.0);
     myElephant.setName("Balthasar");
     myElephant.forage();
     myElephant.trumpet();
