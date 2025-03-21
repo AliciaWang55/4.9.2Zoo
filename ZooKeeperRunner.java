@@ -8,6 +8,9 @@ public class ZooKeeperRunner
     System.out.println("My Felines");
     Lion myLion = new Lion();
     myLion.setName("Romeo");
+    myLion.setLifeSpan(5.0);
+    myLion.isNocturnal(false);
+    myLion.setFood("deer");
     myLion.growl();
     myLion.roar();
     myLion.huntInPack();
