@@ -1,0 +1,8 @@
+public class Lion extends Feline
+{
+  public void huntInPack()
+  {
+    System.out.println(getName() + ": hunting with his buddies");
+  }
+
+ }
